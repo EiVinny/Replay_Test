@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: não é possível importar "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" novamente. Esse item já foi importado em "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". É provável que esse seja um erro de criação do build. Essa importação subsequente será ignorada. [D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\ProjectFiles\MyProject.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: não é possível importar "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" novamente. Esse item já foi importado em "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". É provável que esse seja um erro de criação do build. Essa importação subsequente será ignorada. [D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\ProjectFiles\UE4.vcxproj]
+  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading MyProjectEditor (changes to module files)
+  Compiling game modules for hot reload
+  Parsing headers for MyProjectEditor
+    Running UnrealHeaderTool "D:\Vinicius Oliveira\Git\Replay_Test\MyProject\MyProject.uproject" "D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for MyProjectEditor in 6,6913221 seconds
+  Target is up to date
+  Deploying MyProjectEditor Win64 Development...
+  Total build time: 11,31 seconds (NoActionsToExecute executor: 0,00 seconds)

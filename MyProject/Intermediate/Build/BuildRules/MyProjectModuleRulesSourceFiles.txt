@@ -1,0 +1,3 @@
+D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Source\MyProject\MyProject.Build.cs
+D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Source\MyProject.Target.cs
+D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Source\MyProjectEditor.Target.cs
