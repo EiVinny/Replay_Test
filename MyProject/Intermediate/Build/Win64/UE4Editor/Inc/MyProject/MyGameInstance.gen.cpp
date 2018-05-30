@@ -38,6 +38,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "IncludePath", "MyGameInstance.h" },
 				{ "ModuleRelativePath", "MyGameInstance.h" },
+				{ "ToolTip", "USTRUCT(BlueprintType)\nstruct FS_ReplayInfo\n{\n       GENERATED_USTRUCT_BODY()\n\n               UPROPERTY(BlueprintReadOnly)\n                       FString ReplayName;\n\n               UPROPERTY(BlueprintReadOnly)\n                       FString FriendlyName;\n\n               UPROPERTY(BlueprintReadOnly)\n                       FDateTime Timestamp;\n\n               UPROPERTY(BlueprintReadOnly)\n                       int32 LengthInMS;\n\n               UPROPERTY(BlueprintReadOnly)\n                       bool bIsValid;\n\n       FS_ReplayInfo(FString NewName, FString NewFriendlyName, FDateTime NewTimestamp, int32 NewLengthInMS)\n       {\n               ReplayName = NewName;\n               FriendlyName = NewFriendlyName;\n               Timestamp = NewTimestamp;\n               LengthInMS = NewLengthInMS;\n               bIsValid = true;\n       }\n\n       FS_ReplayInfo()\n       {\n               ReplayName = \"Replay\";\n               FriendlyName = \"Replay\";\n               Timestamp = FDateTime::MinValue();\n               LengthInMS = 0;\n               bIsValid = false;\n       }\n};" },
 			};
 #endif
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -58,7 +59,7 @@ void EmptyLinkFunctionForGeneratedCodeMyGameInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UMyGameInstance, 554471903);
+	IMPLEMENT_CLASS(UMyGameInstance, 46237177);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UMyGameInstance(Z_Construct_UClass_UMyGameInstance, &UMyGameInstance::StaticClass, TEXT("/Script/MyProject"), TEXT("UMyGameInstance"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UMyGameInstance);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

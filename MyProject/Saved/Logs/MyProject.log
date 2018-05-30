@@ -1,4 +1,4 @@
-﻿Log file open, 05/29/18 08:52:43
+﻿Log file open, 05/30/18 07:46:46
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyProject
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(59521557) SRandInit(59521557).
+LogInit: Display: RandInit(862767811) SRandInit(862767811).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.258713
+LogStats: Stats thread started at 0.253498
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,7 +84,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.163s to configure plugins.
+LogStreaming: Display: Took  0.074s to configure plugins.
 LogModuleManager: Display: Found up-to-date module file ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Binaries/Win64/UE4Editor-MyProject.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
@@ -218,803 +218,226 @@ LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line: -EpicPortal 
+LogInit: Command Line:  
 LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.29-11.52.44:845][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.29-11.52.44:845][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.29-11.52.44:886][  0]LogInit: Computer: INTERLAB-XPS
-[2018.05.29-11.52.44:886][  0]LogInit: User: INTERLAB
-[2018.05.29-11.52.44:886][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.29-11.52.44:886][  0]LogInit: High frequency timer resolution =4.101570 MHz
-[2018.05.29-11.52.44:886][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.29-11.52.44:886][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.29-11.52.44:886][  0]LogMemory: Process Physical Memory: 278.84 MB used, 278.84 MB peak
-[2018.05.29-11.52.44:886][  0]LogMemory: Process Virtual Memory: 269.56 MB used, 269.56 MB peak
-[2018.05.29-11.52.44:886][  0]LogMemory: Physical Memory: 6951.26 MB used,  9336.24 MB free, 16287.50 MB total
-[2018.05.29-11.52.44:886][  0]LogMemory: Virtual Memory: 4838.99 MB used,  9336.24 MB free, 134217728.00 MB total
-[2018.05.29-11.52.44:898][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.05.29-11.52.44:898][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.05.29-11.52.45:233][  0]LogStreaming: Display: Took  0.335s to EndInitTextLocalization.
-[2018.05.29-11.52.45:233][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.29-11.52.45:250][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.05.29-11.52.45:250][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.05.29-11.52.45:373][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.29-11.52.45:408][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.05.29-11.52.45:408][  0]LogD3D11RHI:       8096/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.29-11.52.45:413][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.05.29-11.52.45:413][  0]LogD3D11RHI:       128/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.05.29-11.52.45:415][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.29-11.52.45:415][  0]LogD3D11RHI:       0/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.29-11.52.45:415][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.29-11.52.45:421][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.29-11.52.45:421][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.29-11.52.45:421][  0]LogWindows: EnumDisplayDevices:
-[2018.05.29-11.52.45:421][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.05.29-11.52.45:421][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.05.29-11.52.45:421][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.05.29-11.52.45:421][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.05.29-11.52.45:421][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.29-11.52.45:422][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.29-11.52.45:422][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.29-11.52.45:422][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.29-11.52.45:422][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.05.29-11.52.45:422][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.29-11.52.45:422][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.29-11.52.45:422][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
-[2018.05.29-11.52.45:444][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2018.05.29-11.52.45:445][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.05.29-11.52.45:445][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.29-11.52.45:455][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.05.29-11.52.45:498][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Intermediate/Shaders/WorkingDirectory/5712/).
-[2018.05.29-11.52.45:498][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/INTERLAB/AppData/Local/Temp/UnrealShaderWorkingDir/E80F0A8247BEA2212D175F8A7001F015/'.
-[2018.05.29-11.52.45:924][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.29-11.52.45:933][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.29-11.52.45:942][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.29-11.52.45:951][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.29-11.52.45:963][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.29-11.52.45:972][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.29-11.52.45:981][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.29-11.52.45:990][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.29-11.52.45:994][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.29-11.52.46:003][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.29-11.52.46:011][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.29-11.52.46:020][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.29-11.52.46:028][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.05.29-11.52.46:036][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.29-11.52.46:045][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.29-11.52.46:062][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.29-11.52.46:062][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.29-11.52.46:075][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.29-11.52.46:076][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.29-11.52.46:108][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.29-11.52.46:116][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.29-11.52.46:125][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.29-11.52.46:134][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.29-11.52.46:143][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.29-11.52.46:152][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.29-11.52.46:152][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.29-11.52.46:212][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.05.29-11.52.46:212][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.05.29-11.52.46:212][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.29-11.52.46:702][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.29-11.52.46:753][  0]LogDerivedDataCache: Loaded boot cache 0.05s 77MB C:/Users/INTERLAB/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.29-11.52.46:753][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/INTERLAB/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.05.29-11.52.46:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.29-11.52.46:753][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.29-11.52.46:753][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.29-11.52.46:753][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.29-11.52.46:766][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.29-11.52.46:778][  0]LogDerivedDataCache: Using Local data cache path C:/Users/INTERLAB/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.29-11.52.46:778][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.05.29-11.52.46:778][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.05.29-11.52.46:786][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.29-11.52.46:787][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.29-11.52.46:787][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.29-11.52.46:787][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.29-11.52.46:875][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
-[2018.05.29-11.52.47:096][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.29-11.52.47:194][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.29-11.52.47:196][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.29-11.52.47:196][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.29-11.52.47:196][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.29-11.52.47:196][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.29-11.52.47:196][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.29-11.52.47:216][  0]LogNetVersion: MyProject , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2475486345)
-[2018.05.29-11.52.47:558][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.040551 seconds
-[2018.05.29-11.52.47:564][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.05.29-11.52.47:564][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.05.29-11.52.47:564][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.29-11.52.48:803][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.29-11.52.48:832][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.29-11.52.49:072][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c17b8c3e20, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.05.29-11.52.49:082][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c17b8c3e20, Size=72
-[2018.05.29-11.52.49:082][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c17b83eed0, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_0:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.05.29-11.52.49:092][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c17c53f0b0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
-[2018.05.29-11.52.49:891][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [358.173584ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
-[2018.05.29-11.52.50:163][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [104.955421ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
-[2018.05.29-11.52.50:288][  0]SourceControl: Source control is disabled
-[2018.05.29-11.52.50:288][  0]SourceControl: Source control is disabled
-[2018.05.29-11.52.50:299][  0]SourceControl: Source control is disabled
-[2018.05.29-11.52.50:309][  0]SourceControl: Source control is disabled
-[2018.05.29-11.52.50:655][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.29-11.52.50:772][  0]LogOcInput: OculusInput pre-init called
-[2018.05.29-11.52.50:842][  0]LogEngine: Initializing Engine...
-[2018.05.29-11.52.50:857][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2018.05.29-11.52.50:858][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.29-11.52.50:858][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.29-11.52.51:014][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.29-11.52.51:063][  0]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.29-11.52.51:128][  0]LogInit: FAudioDevice initialized.
-[2018.05.29-11.52.51:201][  0]LogDerivedDataCache: Saved boot cache 0.07s 79MB C:/Users/INTERLAB/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.29-11.52.51:212][  0]LogInit: Texture streaming: Enabled
-[2018.05.29-11.52.51:225][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.29-11.52.51:235][  0]LogInit: Transaction tracking system initialized
-[2018.05.29-11.52.51:250][  0]BlueprintLog: New page: Editor Load
-[2018.05.29-11.52.51:383][  0]LocalizationService: Localization service is disabled
-[2018.05.29-11.52.51:468][  0]LogConsoleResponse: Display: 
-[2018.05.29-11.52.51:591][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.29-11.52.51:591][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.29-11.52.51:591][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.29-11.52.51:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.29-11.52.51:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.29-11.52.51:841][  0]LogFileCache: Scanning file cache for directory 'D:/Vinicius Oliveira/Git/Replay_Test/MyProject/Content/' took 0.01s
-[2018.05.29-11.52.51:841][  0]SourceControl: Source control is disabled
-[2018.05.29-11.52.51:842][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Epic Games/UE_4.19/FeaturePacks/StarterContent.upack)
-[2018.05.29-11.52.51:847][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.05.29-11.52.51:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.05.29-11.52.51:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.05.29-11.52.51:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.05.29-11.52.51:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.05.29-11.52.51:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.05.29-11.52.51:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.05.29-11.52.51:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.05.29-11.52.51:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.05.29-11.52.51:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.05.29-11.52.51:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.05.29-11.52.51:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.05.29-11.52.52:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.05.29-11.52.52:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.05.29-11.52.52:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.05.29-11.52.52:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.05.29-11.52.52:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.05.29-11.52.52:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.05.29-11.52.52:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Fire01.uasset"
-[2018.05.29-11.52.52:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.05.29-11.52.52:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.05.29-11.52.52:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.05.29-11.52.52:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Light01.uasset"
-[2018.05.29-11.52.52:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.05.29-11.52.52:434][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Light02.uasset"
-[2018.05.29-11.52.52:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.05.29-11.52.52:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.05.29-11.52.52:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.05.29-11.52.52:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.05.29-11.52.52:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.05.29-11.52.53:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.05.29-11.52.53:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.05.29-11.52.54:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.05.29-11.52.54:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.05.29-11.52.54:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Steam01.uasset"
-[2018.05.29-11.52.54:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.05.29-11.52.54:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.05.29-11.52.54:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.05.29-11.52.54:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.05.29-11.52.54:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.05.29-11.52.54:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.05.29-11.52.54:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.05.29-11.52.54:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.05.29-11.52.54:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.05.29-11.52.54:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.05.29-11.52.54:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.05.29-11.52.54:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.05.29-11.52.54:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.05.29-11.52.54:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.05.29-11.52.54:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.05.29-11.52.54:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.05.29-11.52.54:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.05.29-11.52.54:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.05.29-11.52.54:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.05.29-11.52.54:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.05.29-11.52.55:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.05.29-11.52.55:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.05.29-11.52.55:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Maps/StarterMap.umap"
-[2018.05.29-11.52.55:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.05.29-11.52.55:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.05.29-11.52.55:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.05.29-11.52.55:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.05.29-11.52.55:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.05.29-11.52.55:372][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.05.29-11.52.55:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.05.29-11.52.55:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.05.29-11.52.55:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.05.29-11.52.55:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.05.29-11.52.55:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.05.29-11.52.55:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.05.29-11.52.55:720][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.05.29-11.52.55:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.05.29-11.52.55:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.05.29-11.52.55:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.05.29-11.52.55:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.05.29-11.52.55:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.05.29-11.52.55:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.05.29-11.52.55:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.05.29-11.52.55:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.05.29-11.52.55:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.05.29-11.52.55:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.05.29-11.52.56:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.05.29-11.52.56:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.05.29-11.52.56:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.05.29-11.52.56:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.05.29-11.52.56:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.05.29-11.52.56:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.05.29-11.52.56:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.05.29-11.52.56:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.05.29-11.52.56:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.05.29-11.52.56:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.05.29-11.52.56:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.05.29-11.52.56:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.05.29-11.52.56:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.05.29-11.52.56:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.05.29-11.52.56:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.05.29-11.52.56:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.05.29-11.52.56:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.05.29-11.52.56:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.05.29-11.52.56:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.05.29-11.52.56:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.05.29-11.52.56:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.05.29-11.52.56:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.05.29-11.52.56:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.05.29-11.52.56:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.05.29-11.52.56:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.05.29-11.52.56:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.05.29-11.52.56:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.05.29-11.52.56:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.05.29-11.52.56:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.05.29-11.52.56:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.05.29-11.52.56:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.05.29-11.52.56:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.05.29-11.52.57:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.05.29-11.52.57:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.05.29-11.52.57:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.05.29-11.52.57:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.05.29-11.52.57:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.05.29-11.52.57:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.05.29-11.52.57:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.05.29-11.52.57:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.05.29-11.52.57:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.05.29-11.52.57:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.05.29-11.52.57:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_Door.uasset"
-[2018.05.29-11.52.57:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.05.29-11.52.57:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.05.29-11.52.57:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.05.29-11.52.57:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.05.29-11.52.57:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.05.29-11.52.57:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.05.29-11.52.57:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.05.29-11.52.57:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.05.29-11.52.57:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.05.29-11.52.57:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.05.29-11.52.58:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.05.29-11.52.58:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.05.29-11.52.58:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.05.29-11.52.58:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.05.29-11.52.58:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.05.29-11.52.58:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.05.29-11.52.58:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.05.29-11.52.58:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.05.29-11.52.58:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.05.29-11.52.58:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.05.29-11.52.58:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.05.29-11.52.58:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.05.29-11.52.58:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.05.29-11.52.58:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.05.29-11.52.58:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.05.29-11.52.58:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.05.29-11.52.58:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.05.29-11.52.58:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.05.29-11.52.58:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.05.29-11.52.58:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.05.29-11.52.58:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.05.29-11.52.58:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.05.29-11.52.58:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.05.29-11.52.58:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.05.29-11.52.58:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.05.29-11.52.58:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.05.29-11.52.58:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.05.29-11.52.58:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.05.29-11.52.58:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.05.29-11.52.58:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.05.29-11.52.58:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.05.29-11.52.58:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.05.29-11.52.58:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.05.29-11.52.58:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.05.29-11.53.00:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.05.29-11.53.02:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.05.29-11.53.04:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.05.29-11.53.05:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.05.29-11.53.06:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.05.29-11.53.07:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.05.29-11.53.09:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.05.29-11.53.10:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.05.29-11.53.11:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.05.29-11.53.13:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.05.29-11.53.13:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.05.29-11.53.14:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.05.29-11.53.14:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.05.29-11.53.14:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.05.29-11.53.14:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.05.29-11.53.14:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.05.29-11.53.14:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.05.29-11.53.14:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.05.29-11.53.14:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.05.29-11.53.14:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.05.29-11.53.14:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.05.29-11.53.14:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.05.29-11.53.14:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.05.29-11.53.14:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.05.29-11.53.15:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.05.29-11.53.16:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.05.29-11.53.16:517][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.05.29-11.53.16:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.05.29-11.53.16:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.05.29-11.53.16:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.05.29-11.53.16:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.05.29-11.53.16:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.05.29-11.53.16:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.05.29-11.53.18:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.05.29-11.53.18:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.05.29-11.53.18:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.05.29-11.53.18:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.05.29-11.53.18:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.05.29-11.53.18:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.05.29-11.53.18:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.05.29-11.53.18:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.05.29-11.53.18:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.05.29-11.53.18:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.05.29-11.53.18:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.05.29-11.53.18:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.05.29-11.53.18:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.05.29-11.53.18:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.05.29-11.53.18:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.05.29-11.53.18:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.05.29-11.53.19:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.05.29-11.53.19:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.05.29-11.53.19:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.05.29-11.53.19:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.05.29-11.53.19:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.05.29-11.53.19:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.05.29-11.53.19:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.05.29-11.53.19:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.05.29-11.53.20:126][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.05.29-11.53.20:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.05.29-11.53.20:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.05.29-11.53.20:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.05.29-11.53.20:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.05.29-11.53.20:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.05.29-11.53.20:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.05.29-11.53.21:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.05.29-11.53.21:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.05.29-11.53.21:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.05.29-11.53.21:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.05.29-11.53.21:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.05.29-11.53.21:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.05.29-11.53.21:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.05.29-11.53.21:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.05.29-11.53.21:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.05.29-11.53.22:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.05.29-11.53.22:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.05.29-11.53.22:203][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.05.29-11.53.22:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.05.29-11.53.22:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.05.29-11.53.22:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.05.29-11.53.22:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.05.29-11.53.22:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.05.29-11.53.22:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.05.29-11.53.22:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.05.29-11.53.22:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.05.29-11.53.22:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.05.29-11.53.22:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.05.29-11.53.22:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.05.29-11.53.22:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.05.29-11.53.23:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.05.29-11.53.23:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.05.29-11.53.23:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.05.29-11.53.23:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.05.29-11.53.23:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.05.29-11.53.23:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.05.29-11.53.23:266][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.05.29-11.53.23:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.05.29-11.53.23:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.05.29-11.53.23:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.05.29-11.53.23:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.05.29-11.53.23:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.05.29-11.53.23:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.05.29-11.53.24:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.05.29-11.53.24:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.05.29-11.53.24:791][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.05.29-11.53.24:865][  0]LogSavePackage: Save=7.55ms
-[2018.05.29-11.53.24:865][  0]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/Floor_400x40002BE45594359E92395D6D7A8CAA1E128.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.05.29-11.53.24:868][  0]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.05.29-11.53.24:868][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.05.29-11.53.24:869][  0]Cmd: MAP LOAD FILE="../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.29-11.53.24:869][  0]LightingResults: New page: Lighting Build
-[2018.05.29-11.53.24:871][  0]MapCheck: New page: Map Check
-[2018.05.29-11.53.24:871][  0]LightingResults: New page: Lighting Build
-[2018.05.29-11.53.24:880][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c17b83eed0, Size=72
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 2048X1024)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 2048X1024)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 2048X1024)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 2048X1024)
-[2018.05.29-11.53.26:578][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 2048X1024)
-[2018.05.29-11.53.27:109][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 2048X1024)
-[2018.05.29-11.53.27:109][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 2048X1024)
-[2018.05.29-11.53.27:109][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
-[2018.05.29-11.53.27:110][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.05.29-11.53.27:161][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.29-11.53.27:171][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.29-11.53.27:204][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 33.211ms to complete.
-[2018.05.29-11.53.27:204][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.335
-[2018.05.29-11.53.27:426][  0]LogCollectionManager: Loaded 0 collections in 0.000731 seconds
-[2018.05.29-11.53.27:464][  0]LogFileCache: Scanning file cache for directory 'D:/Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/Collections/' took 0.01s
-[2018.05.29-11.53.27:465][  0]LogFileCache: Scanning file cache for directory 'D:/Vinicius Oliveira/Git/Replay_Test/MyProject/Content/Developers/INTERLAB/Collections/' took 0.01s
-[2018.05.29-11.53.27:465][  0]LogFileCache: Scanning file cache for directory 'D:/Vinicius Oliveira/Git/Replay_Test/MyProject/Content/Collections/' took 0.01s
-[2018.05.29-11.53.27:465][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.29-11.53.27:472][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2456 classes and 560 folders.
-[2018.05.29-11.53.27:476][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.05.29-11.53.27:506][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.05.29-11.53.27:512][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.05.29-11.53.27:520][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.29-11.53.27:522][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.29-11.53.27:550][  0]LogSlate: Took 0.017699 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.29-11.53.27:661][  0]LogRenderer: Reallocating scene render targets to support 1004x576 Format 10 NumSamples 1 (Frame:1).
-[2018.05.29-11.53.27:697][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.05.29-11.53.27:796][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.05.29-11.53.27:796][  0]LogLoad: (Engine Initialization) Total time: 45.45 seconds
-[2018.05.29-11.53.27:796][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.29-11.53.27:806][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.29-11.53.27:823][  0]LogAssetRegistry: Asset discovery search completed in 40.9707 seconds
-[2018.05.29-11.53.27:824][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.29-11.53.27:824][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
-[2018.05.29-11.53.28:014][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.29-11.53.30:241][246]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.29-11.53.30:307][254]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.29-11.53.30:314][254]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.05.29-11.53.30:314][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.29-11.53.30:485][254]PIE: New page: PIE session: FirstPersonExampleMap (May 29, 2018, 5:53:30 AM)
-[2018.05.29-11.53.30:485][254]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2018.05.29-11.53.30:743][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.258014s)
-[2018.05.29-11.53.30:744][254]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.05.29-11.53.30:744][254]LogPlayLevel: PIE: World Init took: (0.001208s)
-[2018.05.29-11.53.30:744][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.259515s)
-[2018.05.29-11.53.30:757][254]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.29-11.53.30:826][254]LogInit: FAudioDevice initialized.
-[2018.05.29-11.53.30:868][254]LogLoad: Game class is 'MyProjectGameMode'
-[2018.05.29-11.53.30:961][254]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.29-08.53.30
-[2018.05.29-11.53.30:969][254]LogWorld: Bringing up level for play took: 0.008860
-[2018.05.29-11.53.31:019][254]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2018.05.29-11.53.31:020][254]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.898
-[2018.05.29-11.53.31:020][254]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.05.29-11.54.16:020][643]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.05.29-11.54.16:065][643]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.05.29-11.58.56:274][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.29-12.02.15:927][654]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.05.29-12.02.21:529][267]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2018.05.29-12.02.21:727][267]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1722ccbe8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.05.29-12.02.21:728][267]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1722ccbe0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.05.29-12.02.22:045][267]LogSlate: Took 0.011598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.29-12.03.36:721][280]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.05.29-12.03.37:160][280]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.05.29-12.03.37:162][280]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
-[2018.05.29-12.03.37:207][280]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.05.29-12.03.37:408][280]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
-[2018.05.29-12.03.39:544][533]LogSlate: Window 'SK_Mannequin_Arms_Skeleton' being destroyed
-[2018.05.29-12.03.39:547][533]LogSlate: Window 'SK_Mannequin_Arms_Skeleton' being destroyed
-[2018.05.29-12.05.14:940][767]LogSavePackage: Save=108.14ms
-[2018.05.29-12.05.14:941][767]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap_Auto15F0E3E7A435F425009FC82BD2DAC30D1.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
-[2018.05.29-12.05.14:942][767]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap
-[2018.05.29-12.05.14:944][767]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.163
-[2018.05.29-12.05.14:944][767]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.163
-[2018.05.29-12.05.41:736][745]LogSavePackage: Save=89.27ms
-[2018.05.29-12.05.41:736][745]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap42F6F6304E130C14F05F09B9D5276679.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.05.29-12.05.41:739][745]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.05.29-12.05.41:743][745]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.150
-[2018.05.29-12.05.46:697][324]LogSavePackage: Save=88.88ms
-[2018.05.29-12.05.46:697][324]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap70EF810F469679D1838CADB647287C79.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.05.29-12.05.46:700][324]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.05.29-12.05.47:640][324]LogSavePackage: Save=902.81ms
-[2018.05.29-12.05.47:640][324]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap_BuiltDataB590DB73464623B46A361CBCF55BD474.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.05.29-12.05.47:642][324]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2018.05.29-12.07.43:383][174]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.05.29-12.07.50:058][895]LogSlate: Took 0.022751 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.29-12.07.50:997][998]LogSavePackage: Save=10.00ms
-[2018.05.29-12.07.50:997][998]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonProjectile813AE1F947148E2DC5B45EA7CF39282E.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset'
-[2018.05.29-12.07.50:999][998]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset
-[2018.05.29-12.07.56:101][589]LogSavePackage: Save=90.46ms
-[2018.05.29-12.07.56:101][589]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMapD5EBAD5943F146D3D379E6944D0AD107.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.05.29-12.07.56:104][589]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.05.29-12.07.56:110][589]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.152
-[2018.05.29-12.08.04:073][247]BlueprintLog: New page: Compile FirstPersonProjectile
-[2018.05.29-12.08.26:100][447]LogSavePackage: Save=9.53ms
-[2018.05.29-12.08.26:101][447]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonProjectileD7760FF9452407BE6FB26A860786F17D.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset'
-[2018.05.29-12.08.26:102][447]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset
-[2018.05.29-12.08.37:436][549]LogSavePackage: Save=91.54ms
-[2018.05.29-12.08.37:436][549]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap6FD1CD424262D5F5DB691DBECD3DE1FA.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.05.29-12.08.37:440][549]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.05.29-12.08.37:446][549]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.154
-[2018.05.29-12.10.50:181][ 12]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.05.29-12.15.41:361][355]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edd440, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.15.50:075][395]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edd440, Size=4
-[2018.05.29-12.15.50:075][395]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e226a0a8, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_46:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.15.50:076][395]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e226a058, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.16.36:215][855]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e226a058, Size=4
-[2018.05.29-12.16.36:215][855]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1eb21dff8, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_48:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.16.36:216][855]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1eb21df08, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.18.37:748][276]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.021
-[2018.05.29-12.18.37:749][276]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
-[2018.05.29-12.18.37:763][276]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
-[2018.05.29-12.18.37:763][276]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter]
-[2018.05.29-12.18.37:779][276]LogSavePackage: Save=13.59ms
-[2018.05.29-12.18.37:780][276]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonCharacter_Auto2589AF9924A33DB7404080C9DB9670409.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Auto2.uasset'
-[2018.05.29-12.18.37:781][276]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Auto2.uasset
-[2018.05.29-12.18.37:781][276]LogFileHelpers: Auto-saving content packages took 0.032
-[2018.05.29-12.19.39:146][238]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1eb21df08, Size=4
-[2018.05.29-12.19.39:146][238]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1d30870f0, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_50:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.19.39:147][238]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1d30869c0, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.19.43:553][763]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1d30869c0, Size=4
-[2018.05.29-12.19.43:553][763]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1d0d89f98, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_52:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.19.43:553][763]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1d0d8a4b8, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.20.02:679][ 54]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1d0d8a4b8, Size=4
-[2018.05.29-12.20.02:679][ 54]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1eafc6118, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_54:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.20.02:680][ 54]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1eafc5078, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.20.10:656][  0]LogSlate: Took 0.025717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.05.29-12.20.23:437][523]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1eafc5078, Size=4
-[2018.05.29-12.20.23:437][523]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1dda42598, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_56:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.20.23:437][523]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1dda43ea8, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.20.31:125][438]LogSavePackage: Save=13.72ms
-[2018.05.29-12.20.31:125][438]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonCharacterA0E1DC3540B0159F2BB6288335D88094.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
-[2018.05.29-12.20.31:128][438]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset
-[2018.05.29-12.21.07:228][611]LogSlate: Window 'Editor Preferences' being destroyed
-[2018.05.29-12.21.07:230][611]LogSlate: Window 'Editor Preferences' being destroyed
-[2018.05.29-12.21.11:572][978]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.05.29-12.21.11:762][981]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyProject
-[2018.05.29-12.21.11:763][981]LogTemp: CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.05.29-12.21.11:763][981]LogTemp: Initial Dir: D:\Epic Games\UE_4.19
-[2018.05.29-12.21.11:763][981]LogTemp: Env CWD: D:\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.05.29-12.21.11:790][982]LogTemp: BranchPath = INTERLAB-XPS/D/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = INTERLAB-XPS/D/Epic Games/UE_4.19/Engine/Binaries
-[2018.05.29-12.21.11:790][982]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\INTERLAB\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.05.29-12.23.56:403][502]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1dda43ea8, Size=4
-[2018.05.29-12.23.56:403][502]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edcc48, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_58:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.23.56:405][502]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edc5b8, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.23.56:410][502]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edc5b8, Size=4
-[2018.05.29-12.23.56:410][502]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edc5b8, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_60:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.23.56:411][502]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edd250, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.16:226][463]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edd250, Size=4
-[2018.05.29-12.24.16:226][463]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edd250, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_62:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.16:227][463]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2eddf28, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.16:232][463]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2eddf28, Size=4
-[2018.05.29-12.24.16:233][463]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2eddf28, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_64:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.16:233][463]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2ede380, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.28:264][663]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2ede380, Size=4
-[2018.05.29-12.24.28:264][663]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2ede380, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_66:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.28:265][663]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edc760, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.33:619][178]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edc760, Size=4
-[2018.05.29-12.24.33:619][178]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edc760, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_68:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.33:620][178]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edd0a0, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.34:737][286]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edd0a0, Size=4
-[2018.05.29-12.24.34:737][286]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edd0a0, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_70:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.34:737][286]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edda00, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.35:926][402]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edda00, Size=4
-[2018.05.29-12.24.35:926][402]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edda00, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_72:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.35:927][402]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edddb8, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.42:993][ 72]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edddb8, Size=4
-[2018.05.29-12.24.42:993][ 72]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edddb8, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_74:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.24.42:994][ 72]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e2edd728, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.29.24:644][973]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edd728, Size=4
-[2018.05.29-12.29.24:644][973]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1dda43420, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_76:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.29.24:645][973]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1dda41500, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.30.14:416][264]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1dda41500, Size=4
-[2018.05.29-12.30.14:416][264]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c208e39670, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_78:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.30.14:417][264]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c208e399f0, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.32.02:754][555]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edd0a0, Size=4
-[2018.05.29-12.32.02:754][555]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edda00, Size=4
-[2018.05.29-12.32.02:755][555]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.020
-[2018.05.29-12.32.02:756][555]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
-[2018.05.29-12.32.02:772][555]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
-[2018.05.29-12.32.02:772][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter]
-[2018.05.29-12.32.02:795][555]LogSavePackage: Save=19.62ms
-[2018.05.29-12.32.02:795][555]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonCharacter_Auto300DD07D74D0BAC17E636C1B80A5DD310.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Auto3.uasset'
-[2018.05.29-12.32.02:796][555]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Auto3.uasset
-[2018.05.29-12.32.02:796][555]LogFileHelpers: Auto-saving content packages took 0.041
-[2018.05.29-12.45.39:499][294]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.020
-[2018.05.29-12.45.39:501][294]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
-[2018.05.29-12.45.39:510][294]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
-[2018.05.29-12.45.39:510][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter]
-[2018.05.29-12.45.39:535][294]LogSavePackage: Save=21.70ms
-[2018.05.29-12.45.39:535][294]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonCharacter_Auto4C815B0D84EC779378B30EEAB9D3A30E3.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Auto4.uasset'
-[2018.05.29-12.45.39:536][294]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/Autosaves/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter_Auto4.uasset
-[2018.05.29-12.45.39:536][294]LogFileHelpers: Auto-saving content packages took 0.036
-[2018.05.29-12.51.55:992][118]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c208e399f0, Size=4
-[2018.05.29-12.51.55:992][118]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e236baa8, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_80:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.51.55:994][118]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e236bb98, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.52.00:741][681]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e236bb98, Size=4
-[2018.05.29-12.52.00:741][681]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e236bb98, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_82:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.52.00:742][681]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e236a1f0, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.SKEL_FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.52.50:336][391]BlueprintLog: New page: Compile FirstPersonCharacter
-[2018.05.29-12.52.50:342][391]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e236a1f0, Size=4
-[2018.05.29-12.52.50:342][391]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1e236a1f0, Size=4, Default__SKEL_FirstPersonCharacter_C Function /Engine/Transient.REINST_SKEL_FirstPersonCharacter_C_84:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.52.50:349][391]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.VR_MuzzleLocation is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get VR_MuzzleLocation
-[2018.05.29-12.52.50:350][391]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.FP_MuzzleLocation is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get FP_MuzzleLocation
-[2018.05.29-12.52.50:350][391]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.Mesh1P is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get Mesh1P
-[2018.05.29-12.52.50:352][391]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c22efb9780, Size=384, Default__FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.52.50:870][391]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e236bb98, Size=4
-[2018.05.29-12.52.50:870][391]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e236a1f0, Size=4
-[2018.05.29-12.52.50:885][391]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [3608.54] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 548 ms] (/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
-[2018.05.29-12.52.58:667][127]LogSavePackage: Save=24.87ms
-[2018.05.29-12.52.58:667][127]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonCharacter13C97BA8482068F3461474B0BC6D2108.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
-[2018.05.29-12.52.58:669][127]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset
-[2018.05.29-12.54.10:751][776]BlueprintLog: New page: Compile FirstPersonCharacter
-[2018.05.29-12.54.10:761][776]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c22efb9780, Size=384
-[2018.05.29-12.54.10:761][776]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1f9164280, Size=384, FirstPersonCharacter_C_4 Function /Engine/Transient.REINST_FirstPersonCharacter_C_90:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.54.10:762][776]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.Mesh1P is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get Mesh1P
-[2018.05.29-12.54.10:762][776]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.VR_MuzzleLocation is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get VR_MuzzleLocation
-[2018.05.29-12.54.10:762][776]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.FP_MuzzleLocation is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get FP_MuzzleLocation
-[2018.05.29-12.54.10:763][776]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c23518ec80, Size=384, Default__FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.54.11:337][776]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [3688.99] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 585 ms] (/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
-[2018.05.29-12.55.21:666][390]BlueprintLog: New page: Compile FirstPersonCharacter
-[2018.05.29-12.55.21:676][390]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c23518ec80, Size=384
-[2018.05.29-12.55.21:677][390]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c22f57bb80, Size=384, FirstPersonCharacter_C_6 Function /Engine/Transient.REINST_FirstPersonCharacter_C_94:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.55.21:678][390]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.VR_Gun is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get VR_Gun
-[2018.05.29-12.55.21:678][390]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.Mesh1P is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get Mesh1P
-[2018.05.29-12.55.21:678][390]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.FP_MuzzleLocation is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get FP_MuzzleLocation
-[2018.05.29-12.55.21:679][390]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c1a3314a00, Size=384, Default__FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.55.22:179][390]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1f9164280, Size=384
-[2018.05.29-12.55.22:193][390]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [3759.85] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 525 ms] (/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
-[2018.05.29-12.55.34:798][559]BlueprintLog: New page: Compile FirstPersonCharacter
-[2018.05.29-12.55.34:807][559]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1a3314a00, Size=384
-[2018.05.29-12.55.34:807][559]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c21ea05480, Size=384, FirstPersonCharacter_C_8 Function /Engine/Transient.REINST_FirstPersonCharacter_C_98:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.55.34:809][559]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.VR_MuzzleLocation is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get VR_MuzzleLocation
-[2018.05.29-12.55.34:809][559]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.Mesh1P is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get Mesh1P
-[2018.05.29-12.55.34:809][559]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.FP_MuzzleLocation is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get FP_MuzzleLocation
-[2018.05.29-12.55.34:810][559]LogUObjectGlobals: Created PersistentFrame Addr=0x000001c236342380, Size=384, Default__FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
-[2018.05.29-12.55.35:326][559]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [3772.98] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 527 ms] (/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
-[2018.05.29-12.55.41:728][154]LogSavePackage: Save=24.78ms
-[2018.05.29-12.55.41:728][154]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonCharacter49DC20F6448BFD8723D9EB85D1CDA8B1.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
-[2018.05.29-12.55.41:731][154]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset
-[2018.05.29-12.56.28:568][451]LogSavePackage: Save=20.24ms
-[2018.05.29-12.56.28:569][451]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonCharacterBEC1BF37476260A57F8078B10A44072B.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
-[2018.05.29-12.56.28:570][451]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset
-[2018.05.29-12.56.30:188][603]LogSavePackage: Save=3.77ms
-[2018.05.29-12.56.30:188][603]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonProjectile7DA274F4499E182251B75FB506680F20.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset'
-[2018.05.29-12.56.30:189][603]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset
-[2018.05.29-12.56.31:796][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c21ea05480, Size=384
-[2018.05.29-12.56.32:027][760]LogSavePackage: Save=225.79ms
-[2018.05.29-12.56.32:028][760]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap9F4AF4E04B9BCF2DB179478361A14A11.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.05.29-12.56.32:031][760]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.05.29-12.56.32:040][760]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.298
-[2018.05.29-13.28.21:279][748]LogSlate: Window 'Project Settings' being destroyed
-[2018.05.29-13.28.21:282][748]LogSlate: Window 'Project Settings' being destroyed
-[2018.05.29-13.31.50:162][133]Running D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe MyProject Win64 Development -editorrecompile "D:/Vinicius Oliveira/Git/Replay_Test/MyProject/MyProject.uproject" -invalidatemakefilesonly
-[2018.05.29-13.31.50:465][133]Invalidating makefiles only in this run.
-[2018.05.29-13.31.50:588][133]Candidate modules for hot reload:
-[2018.05.29-13.31.50:588][133]  MyProject
-[2018.05.29-13.31.50:588][133]Launching UnrealBuildTool... [D:/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe MyProject -ModuleWithSuffix=MyProject,1451 Win64 Development -editorrecompile -canskiplink "D:/Vinicius Oliveira/Git/Replay_Test/MyProject/MyProject.uproject" ]
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: New page: Compilation - May 29, 2018, 7:32:02 AM
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: Creating makefile for hot reloading MyProject (no existing makefile)
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: Compiling game modules for hot reload
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: Parsing headers for MyProjectEditor
-[2018.05.29-13.32.02:532][133]CompilerResultsLog:   Running UnrealHeaderTool "D:\Vinicius Oliveira\Git\Replay_Test\MyProject\MyProject.uproject" "D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: Reflection code generated for MyProjectEditor in 6,9226544 seconds
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: Performing 5 actions (4 in parallel)
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: MyGameInstance.cpp
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: MyGameInstance.gen.cpp
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: MyProject.init.gen.cpp
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: [4/5] Link UE4Editor-MyProject-1451.dll
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: [5/5] Link UE4Editor-MyProject-1451.lib
-[2018.05.29-13.32.02:532][133]CompilerResultsLog:    Criando biblioteca D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject-1451.suppressed.lib e objeto D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject-1451.suppressed.exp
-[2018.05.29-13.32.02:532][133]CompilerResultsLog:    Criando biblioteca D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject-1451.lib e objeto D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject-1451.exp
-[2018.05.29-13.32.02:532][133]CompilerResultsLog: Total build time: 11,65 seconds (Local executor: 1,32 seconds)
-[2018.05.29-13.32.02:532][133]LogMainFrame: MainFrame: Module compiling took 11.947 seconds
-[2018.05.29-13.32.02:556][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c22f57bb80, Size=384
-[2018.05.29-13.32.02:556][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1eafc6118, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e226a0a8, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1d0d89f98, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1eb21dff8, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1d30870f0, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1dda42598, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edcc48, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edc5b8, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edd250, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2eddf28, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2ede380, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edc760, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e2edddb8, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1dda43420, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c208e39670, Size=4
-[2018.05.29-13.32.02:560][133]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001c1e236baa8, Size=4
-[2018.05.29-13.32.02:572][133]LogClass: Could not find existing class MyGameInstance in package /Script/MyProject for HotReload, assuming new class
-[2018.05.29-13.32.02:580][133]LogHotReload: Re-instancing MyProjectHUD after hot-reload.
-[2018.05.29-13.32.02:642][133]LogContentBrowser: Native class hierarchy updated for 'MyProject' in 0.0006 seconds. Added 5 classes and 2 folders.
-[2018.05.29-13.32.02:644][133]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2018.05.29-13.32.02:964][133]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2459 classes and 564 folders.
-[2018.05.29-13.32.02:965][133]Display: HotReload took 12.4s.
-[2018.05.29-13.32.02:966][133]Warning: HotReload operation took 12.4s.
-[2018.05.29-13.32.03:458][133]LogVSAccessor: Warning: Couldn't open file 'D:/Vinicius Oliveira/Git/Replay_Test/MyProject/Source/MyProject/MyGameInstance.cpp'.
-[2018.05.29-13.32.03:493][133]LogSlate: Window 'Add C++ Class' being destroyed
-[2018.05.29-13.32.03:498][133]LogHotReload: New module detected: UE4Editor-MyProject-1451.dll
-[2018.05.29-13.32.03:531][134]LogHotReload: Starting Hot-Reload from IDE
-[2018.05.29-13.32.03:590][134]LogContentBrowser: Native class hierarchy updated for 'MyProject' in 0.0007 seconds. Added 5 classes and 2 folders.
-[2018.05.29-13.32.03:593][134]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2018.05.29-13.32.03:864][134]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2459 classes and 564 folders.
-[2018.05.29-13.32.03:867][134]Display: HotReload took  0.3s.
-[2018.05.29-14.14.34:326][615]LogSavePackage: Save=20.89ms
-[2018.05.29-14.14.34:326][615]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonCharacterE8CC015A47DFACD0811F69B2EB10028C.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
-[2018.05.29-14.14.34:328][615]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset
-[2018.05.29-14.14.35:183][691]LogSavePackage: Save=21.27ms
-[2018.05.29-14.14.35:184][691]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonCharacter2287B9F44C886B49A21909800171F54F.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
-[2018.05.29-14.14.35:185][691]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset
-[2018.05.29-14.14.37:016][869]LogSavePackage: Save=4.33ms
-[2018.05.29-14.14.37:016][869]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonProjectileB79BFA5F47A4E3C60EEC4E9F4B6D17E1.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset'
-[2018.05.29-14.14.37:018][869]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset
-[2018.05.29-14.14.51:080][962]LogSavePackage: Save=4.70ms
-[2018.05.29-14.14.51:080][962]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonProjectileF9C93096487B18133E0ECC922E613D11.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset'
-[2018.05.29-14.14.51:082][962]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset
-[2018.05.29-14.14.52:716][113]LogSavePackage: Save=19.82ms
-[2018.05.29-14.14.52:716][113]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonCharacter9EB055194EC26C2A34A86C8411900B15.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
-[2018.05.29-14.14.52:717][113]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset
-[2018.05.29-14.14.56:979][569]LogSavePackage: Save=122.77ms
-[2018.05.29-14.14.56:979][569]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMapBA5729914D2C0847D89B98A80E37A803.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.05.29-14.14.56:983][569]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.05.29-14.14.57:814][569]LogSavePackage: Save=811.05ms
-[2018.05.29-14.14.57:814][569]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap_BuiltData90C8FF2B4C1401A6C97F02AC2E65CB35.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.05.29-14.14.57:816][569]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2018.05.29-14.14.59:197][714]LogSavePackage: Save=130.93ms
-[2018.05.29-14.14.59:197][714]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap54A63F394B508BF2A1EE318FDFEB0D36.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.05.29-14.14.59:200][714]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.05.29-14.14.59:932][714]LogSavePackage: Save=721.45ms
-[2018.05.29-14.14.59:932][714]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap_BuiltDataBFF701B6409F4B0F92ADCE9C7911FA04.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.05.29-14.14.59:934][714]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2018.05.29-14.15.00:711][789]LogSavePackage: Save=115.55ms
-[2018.05.29-14.15.00:711][789]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap485CFA0C4EEBCA52CFF3C49BD0C3EE43.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.05.29-14.15.00:714][789]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.05.29-14.15.01:461][789]LogSavePackage: Save=732.83ms
-[2018.05.29-14.15.01:461][789]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap_BuiltData193552E3420DDD8CAF671D983C51480D.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.05.29-14.15.01:463][789]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2018.05.29-14.15.01:960][831]LogSavePackage: Save=109.01ms
-[2018.05.29-14.15.01:960][831]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap255F51AA40D2201C75F495B86FEDE732.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.05.29-14.15.01:964][831]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.05.29-14.15.02:700][831]LogSavePackage: Save=724.93ms
-[2018.05.29-14.15.02:700][831]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap_BuiltData361AA2D7418A829DD586C5B5C944DA1A.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.05.29-14.15.02:702][831]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2018.05.29-14.15.03:088][858]LogSavePackage: Save=127.60ms
-[2018.05.29-14.15.03:088][858]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap924D5A7741298A22AAD827B36AD51287.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2018.05.29-14.15.03:091][858]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap
-[2018.05.29-14.15.03:823][858]LogSavePackage: Save=720.08ms
-[2018.05.29-14.15.03:823][858]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonExampleMap_BuiltDataD44FF11D4DD0D50927229B974F72FFD6.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2018.05.29-14.15.03:825][858]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset
-[2018.05.29-14.15.16:582][306]LogSavePackage: Save=21.71ms
-[2018.05.29-14.15.16:582][306]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonCharacter84CDC81B4DBA324054E1AA977411F3CF.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset'
-[2018.05.29-14.15.16:583][306]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonCharacter.uasset
-[2018.05.29-14.15.20:388][693]LogSavePackage: Save=4.14ms
-[2018.05.29-14.15.20:388][693]LogSavePackage: Moving '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/FirstPersonProjectile41F1D8214FE7BC44A1E20984ED4D7D4F.tmp' to '../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset'
-[2018.05.29-14.15.20:389][693]LogSavePackage: Display: Finished SavePackage ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Blueprints/FirstPersonProjectile.uasset
+[2018.05.30-10.46.47:882][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.30-10.46.47:882][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.30-10.46.47:903][  0]LogInit: Computer: INTERLAB-XPS
+[2018.05.30-10.46.47:903][  0]LogInit: User: INTERLAB
+[2018.05.30-10.46.47:903][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.30-10.46.47:903][  0]LogInit: High frequency timer resolution =4.101569 MHz
+[2018.05.30-10.46.47:903][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.05.30-10.46.47:903][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.30-10.46.47:904][  0]LogMemory: Process Physical Memory: 278.59 MB used, 278.59 MB peak
+[2018.05.30-10.46.47:904][  0]LogMemory: Process Virtual Memory: 269.79 MB used, 269.79 MB peak
+[2018.05.30-10.46.47:904][  0]LogMemory: Physical Memory: 4902.88 MB used,  11384.63 MB free, 16287.50 MB total
+[2018.05.30-10.46.47:904][  0]LogMemory: Virtual Memory: 4842.99 MB used,  11384.63 MB free, 134217728.00 MB total
+[2018.05.30-10.46.47:915][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.05.30-10.46.47:915][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.05.30-10.46.48:215][  0]LogStreaming: Display: Took  0.300s to EndInitTextLocalization.
+[2018.05.30-10.46.48:215][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.30-10.46.48:226][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.30-10.46.48:226][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.30-10.46.48:355][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.30-10.46.48:403][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.05.30-10.46.48:403][  0]LogD3D11RHI:       8096/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.30-10.46.48:410][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.05.30-10.46.48:410][  0]LogD3D11RHI:       128/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.30-10.46.48:411][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.30-10.46.48:411][  0]LogD3D11RHI:       0/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.30-10.46.48:411][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.30-10.46.48:417][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.30-10.46.48:417][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.30-10.46.48:417][  0]LogWindows: EnumDisplayDevices:
+[2018.05.30-10.46.48:417][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.05.30-10.46.48:417][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.05.30-10.46.48:417][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.05.30-10.46.48:417][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.05.30-10.46.48:417][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.30-10.46.48:417][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.30-10.46.48:417][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.30-10.46.48:417][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.30-10.46.48:417][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.05.30-10.46.48:417][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.30-10.46.48:417][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.30-10.46.48:417][  0]LogRHI: Texture pool is 5667 MB (70% of 8096 MB)
+[2018.05.30-10.46.48:439][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.05.30-10.46.48:439][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.05.30-10.46.48:439][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.30-10.46.48:448][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.05.30-10.46.48:491][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Intermediate/Shaders/WorkingDirectory/3972/).
+[2018.05.30-10.46.48:491][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/INTERLAB/AppData/Local/Temp/UnrealShaderWorkingDir/653A45024299BC9526FF49AF6F0A1D87/'.
+[2018.05.30-10.46.48:819][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.30-10.46.48:828][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.30-10.46.48:837][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.30-10.46.48:846][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.30-10.46.48:855][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.30-10.46.48:864][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.30-10.46.48:873][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.30-10.46.48:882][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.30-10.46.48:886][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.30-10.46.48:894][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.30-10.46.48:903][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.30-10.46.48:911][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.30-10.46.48:919][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.30-10.46.48:928][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.30-10.46.48:936][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.30-10.46.48:953][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.30-10.46.48:953][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.30-10.46.48:962][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.30-10.46.48:962][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.30-10.46.48:994][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.30-10.46.49:002][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.30-10.46.49:010][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.30-10.46.49:018][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.30-10.46.49:026][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.30-10.46.49:035][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.30-10.46.49:035][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.30-10.46.49:091][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.30-10.46.49:091][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.30-10.46.49:091][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.30-10.46.49:545][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.30-10.46.49:596][  0]LogDerivedDataCache: Loaded boot cache 0.05s 77MB C:/Users/INTERLAB/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.30-10.46.49:596][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/INTERLAB/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.30-10.46.49:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.30-10.46.49:597][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.30-10.46.49:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.30-10.46.49:597][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.30-10.46.49:608][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.30-10.46.49:621][  0]LogDerivedDataCache: Using Local data cache path C:/Users/INTERLAB/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.30-10.46.49:621][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.30-10.46.49:621][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.30-10.46.49:629][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.30-10.46.49:629][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.30-10.46.49:629][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.30-10.46.49:629][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.30-10.46.49:710][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2018.05.30-10.46.49:911][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.30-10.46.50:006][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.30-10.46.50:007][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.30-10.46.50:007][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.30-10.46.50:007][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.30-10.46.50:007][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.30-10.46.50:007][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.30-10.46.50:025][  0]LogNetVersion: MyProject , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2475486345)
+[2018.05.30-10.46.50:294][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.027782 seconds
+[2018.05.30-10.46.50:298][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.30-10.46.50:298][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.05.30-10.46.50:298][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.30-10.46.56:091][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.30-10.46.56:130][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.30-10.46.57:090][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016d42a9c4f0, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.05.30-10.46.57:182][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016d42a9c4f0, Size=72
+[2018.05.30-10.46.57:182][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016d433276f0, Size=72, Default__FirstPerson_AnimBP_C Function /Engine/Transient.REINST_FirstPerson_AnimBP_C_0:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.05.30-10.46.57:233][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016d432d5850, Size=72, Default__FirstPerson_AnimBP_C Function /Game/FirstPerson/Animations/FirstPerson_AnimBP.FirstPerson_AnimBP_C:ExecuteUbergraph_FirstPerson_AnimBP
+[2018.05.30-10.46.59:758][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016d43b12680, Size=384, Default__FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+[2018.05.30-10.46.59:774][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016d43b12680, Size=384
+[2018.05.30-10.46.59:774][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016d43ad6680, Size=384, Default__FirstPersonCharacter_C Function /Engine/Transient.REINST_FirstPersonCharacter_C_8:ExecuteUbergraph_FirstPersonCharacter
+[2018.05.30-10.46.59:784][  0]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.VR_MuzzleLocation is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get VR_MuzzleLocation
+[2018.05.30-10.46.59:785][  0]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.Mesh1P is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get Mesh1P
+[2018.05.30-10.46.59:785][  0]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.FP_MuzzleLocation is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get FP_MuzzleLocation
+[2018.05.30-10.46.59:786][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016d43a93e80, Size=384, Default__FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+[2018.05.30-10.46.59:788][  0]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [0014.21] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 21 ms] (/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2018.05.30-10.47.00:255][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [65.320610ms] /Game/FirstPerson/Character/Mesh/SK_Mannequin_Arms.SK_Mannequin_Arms
+[2018.05.30-10.47.00:387][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [37.483215ms] /Game/FirstPerson/FPWeapon/Mesh/SK_FPGun.SK_FPGun
+[2018.05.30-10.47.00:504][  0]SourceControl: Source control is disabled
+[2018.05.30-10.47.00:504][  0]SourceControl: Source control is disabled
+[2018.05.30-10.47.00:513][  0]SourceControl: Source control is disabled
+[2018.05.30-10.47.00:522][  0]SourceControl: Source control is disabled
+[2018.05.30-10.47.01:380][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.30-10.47.01:609][  0]LogOcInput: OculusInput pre-init called
+[2018.05.30-10.47.02:077][  0]LogEngine: Initializing Engine...
+[2018.05.30-10.47.02:190][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.05.30-10.47.02:202][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.30-10.47.02:208][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.30-10.47.03:071][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.30-10.47.03:241][  0]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.30-10.47.03:548][  0]LogInit: FAudioDevice initialized.
+[2018.05.30-10.47.03:634][  0]LogDerivedDataCache: Saved boot cache 0.08s 76MB C:/Users/INTERLAB/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.30-10.47.03:638][  0]LogInit: Texture streaming: Enabled
+[2018.05.30-10.47.03:646][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.30-10.47.03:743][  0]LogInit: Transaction tracking system initialized
+[2018.05.30-10.47.04:012][  0]BlueprintLog: New page: Editor Load
+[2018.05.30-10.47.05:067][  0]LocalizationService: Localization service is disabled
+[2018.05.30-10.47.05:609][  0]LogConsoleResponse: Display: 
+[2018.05.30-10.47.06:954][  0]LogFileCache: Scanning file cache for directory 'D:/Vinicius Oliveira/Git/Replay_Test/MyProject/Content/' took 0.01s
+[2018.05.30-10.47.06:954][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.30-10.47.06:954][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.30-10.47.06:954][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.30-10.47.06:954][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.30-10.47.06:954][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.30-10.47.08:476][  0]SourceControl: Source control is disabled
+[2018.05.30-10.47.08:508][  0]Cmd: MAP LOAD FILE="../../../../../Vinicius Oliveira/Git/Replay_Test/MyProject/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.30-10.47.08:529][  0]LightingResults: New page: Lighting Build
+[2018.05.30-10.47.08:620][  0]MapCheck: New page: Map Check
+[2018.05.30-10.47.08:620][  0]LightingResults: New page: Lighting Build
+[2018.05.30-10.47.08:727][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016d433276f0, Size=72
+[2018.05.30-10.47.08:727][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016d43ad6680, Size=384
+[2018.05.30-10.47.10:068][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.30-10.47.11:015][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.30-10.47.11:205][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.30-10.47.11:237][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 31.368ms to complete.
+[2018.05.30-10.47.11:237][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.736
+[2018.05.30-10.47.13:115][  0]LogCollectionManager: Loaded 0 collections in 0.000788 seconds
+[2018.05.30-10.47.13:484][  0]LogFileCache: Scanning file cache for directory 'D:/Vinicius Oliveira/Git/Replay_Test/MyProject/Saved/Collections/' took 0.01s
+[2018.05.30-10.47.13:484][  0]LogFileCache: Scanning file cache for directory 'D:/Vinicius Oliveira/Git/Replay_Test/MyProject/Content/Developers/INTERLAB/Collections/' took 0.01s
+[2018.05.30-10.47.13:484][  0]LogFileCache: Scanning file cache for directory 'D:/Vinicius Oliveira/Git/Replay_Test/MyProject/Content/Collections/' took 0.01s
+[2018.05.30-10.47.13:484][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.30-10.47.13:520][  0]LogContentBrowser: Native class hierarchy populated in 0.0230 seconds. Added 2457 classes and 560 folders.
+[2018.05.30-10.47.13:723][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.05.30-10.47.15:403][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.05.30-10.47.15:459][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.05.30-10.47.16:135][  0]LogSlate: Took 0.012018 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.30-10.47.16:195][  0]LogSlate: Took 0.059002 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.30-10.47.16:256][  0]LogSlate: Took 0.026077 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.30-10.47.16:587][  0]LogRenderer: Reallocating scene render targets to support 1004x576 Format 10 NumSamples 1 (Frame:1).
+[2018.05.30-10.47.17:005][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.05.30-10.47.17:005][  0]LogLoad: (Engine Initialization) Total time: 31.42 seconds
+[2018.05.30-10.47.17:005][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.30-10.47.17:371][  0]LogAssetRegistry: Asset discovery search completed in 27.6823 seconds
+[2018.05.30-10.47.17:373][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.30-10.47.17:373][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2018.05.30-10.47.17:422][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.30-10.47.17:543][  0]LogSlate: Took 0.013752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.30-10.47.18:355][  3]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.30-10.47.26:807][611]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.30-10.47.51:988][610]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.30-10.47.52:474][610]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.05.30-10.47.52:764][610]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016d77882cc8, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.30-10.47.52:764][610]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016d77882cc0, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.30-10.47.53:549][610]LogSlate: Took 0.007003 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.30-10.47.54:022][611]LogSlate: Took 0.015152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.30-10.48.39:036][475]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.05.30-10.48.39:046][475]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000016d43a93e80, Size=384
+[2018.05.30-10.48.39:046][475]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016d3469f400, Size=384, Default__FirstPersonCharacter_C Function /Engine/Transient.REINST_FirstPersonCharacter_C_24:ExecuteUbergraph_FirstPersonCharacter
+[2018.05.30-10.48.39:047][475]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.VR_MuzzleLocation is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get VR_MuzzleLocation
+[2018.05.30-10.48.39:047][475]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.Mesh1P is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get Mesh1P
+[2018.05.30-10.48.39:047][475]LogBlueprint: Warning: [Compiler FirstPersonCharacter] MyProjectCharacter.FP_MuzzleLocation is not blueprint visible (BlueprintReadOnly or BlueprintReadWrite). Please fix mark up or cease accessing as this will be made an error in a future release.  Get FP_MuzzleLocation
+[2018.05.30-10.48.39:048][475]LogUObjectGlobals: Created PersistentFrame Addr=0x0000016d7b34ee00, Size=384, Default__FirstPersonCharacter_C Function /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+[2018.05.30-10.48.39:377][475]LogBlueprint: Warning: [Compiler FirstPersonCharacter] [0113.80] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 340 ms] (/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter)
+[2018.05.30-10.49.43:967][639]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.30-10.49.43:986][639]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.30-10.49.43:986][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.30-10.49.44:076][639]PIE: New page: PIE session: FirstPersonExampleMap (May 30, 2018, 4:49:44 AM)
+[2018.05.30-10.49.44:076][639]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2018.05.30-10.49.44:121][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044994s)
+[2018.05.30-10.49.44:122][639]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.05.30-10.49.44:122][639]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2018.05.30-10.49.44:122][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045669s)
+[2018.05.30-10.49.44:139][639]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.30-10.49.44:198][639]LogInit: FAudioDevice initialized.
+[2018.05.30-10.49.44:251][639]LogLoad: Game class is 'MyProjectGameMode'
+[2018.05.30-10.49.44:294][639]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.05.30-07.49.44
+[2018.05.30-10.49.44:299][639]LogWorld: Bringing up level for play took: 0.013213
+[2018.05.30-10.49.44:391][639]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.05.30-10.49.44:392][639]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.27
+[2018.05.30-10.49.44:392][639]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.30-10.50.08:928][563]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-290.98 Y=-413.05 Z=0.00 Location: X=932.54 Y=839.07 Z=266.25 Normal: X=-0.37 Y=0.44 Z=-0.82 PenetrationDepth:0.078 Actor:EditorCube12 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2018.05.30-10.51.27:802][ 26]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.30-10.51.27:835][ 26]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2018.05.30-10.51.30:984][360]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.30-10.51.41:568][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
