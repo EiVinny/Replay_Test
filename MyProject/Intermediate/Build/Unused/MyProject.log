@@ -1,19 +1,24 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: não é possível importar "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" novamente. Esse item já foi importado em "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". É provável que esse seja um erro de criação do build. Essa importação subsequente será ignorada. [D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\ProjectFiles\MyProject.vcxproj]
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: não é possível importar "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" novamente. Esse item já foi importado em "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". É provável que esse seja um erro de criação do build. Essa importação subsequente será ignorada. [D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\ProjectFiles\UE4.vcxproj]
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: não é possível importar "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" novamente. Esse item já foi importado em "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". É provável que esse seja um erro de criação do build. Essa importação subsequente será ignorada. [D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\ProjectFiles\UE4.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.props(31,3): warning MSB4011: não é possível importar "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Makefile.props" novamente. Esse item já foi importado em "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.cpp.props (31,3)". É provável que esse seja um erro de criação do build. Essa importação subsequente será ignorada. [D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\ProjectFiles\MyProject.vcxproj]
   Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for MyProjectEditor (no existing makefile)
+  Compiling game modules for hot reload
   Parsing headers for MyProjectEditor
     Running UnrealHeaderTool "D:\Vinicius Oliveira\Git\Replay_Test\MyProject\MyProject.uproject" "D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for MyProjectEditor in 6,4755004 seconds
-  Deleting old hot reload file: "D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Binaries\Win64\UE4Editor-MyProject-1451.dll".
-  Deleting old hot reload file: "D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Binaries\Win64\UE4Editor-MyProject-1451.pdb".
-  Performing 5 actions (4 in parallel)
+  Reflection code generated for MyProjectEditor in 5,8547426 seconds
+  Performing 4 actions (4 in parallel)
   MyGameInstance.cpp
-  MyProject.init.gen.cpp
   MyGameInstance.gen.cpp
-  [4/5] Link UE4Editor-MyProject.dll
-  [5/5] Link UE4Editor-MyProject.lib
-     Criando biblioteca D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.lib e objeto D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.exp
-     Criando biblioteca D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.suppressed.lib e objeto D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.suppressed.exp
-  Deploying MyProjectEditor Win64 Development...
-  Total build time: 68,10 seconds (Local executor: 57,93 seconds)
+D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Source\MyProject\MyGameInstance.cpp(64): warning C4996: 'FPaths::GameSavedDir': FPaths::GameSavedDir() has been superseded by FPaths::ProjectSavedDir(). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Misc/Paths.h(164): note: consulte a declaração de 'FPaths::GameSavedDir'
+  [3/4] Link UE4Editor-MyProject-6266.dll
+  [4/4] Link UE4Editor-MyProject-6266.lib
+     Criando biblioteca D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject-6266.suppressed.lib e objeto D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject-6266.suppressed.exp
+MyProjectCharacter.cpp.obj : error LNK2019: sÝmbolo externo indefinido "__declspec(dllimport) public: static void __cdecl UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition(float,enum EOrientPositionSelector::Type)" (__imp_?ResetOrientationAndPosition@UHeadMountedDisplayFunctionLibrary@@SAXMW4Type@EOrientPositionSelector@@@Z) referenciado na funþÒo "protected: void __cdecl AMyProjectCharacter::OnResetVR(void)" (?OnResetVR@AMyProjectCharacter@@IEAAXXZ)
+MyProjectCharacter.cpp.obj : error LNK2019: sÝmbolo externo indefinido "__declspec(dllimport) private: static class UClass * __cdecl UMotionControllerComponent::GetPrivateStaticClass(void)" (__imp_?GetPrivateStaticClass@UMotionControllerComponent@@CAPEAVUClass@@XZ) referenciado na funþÒo "public: __cdecl AMyProjectCharacter::AMyProjectCharacter(void)" (??0AMyProjectCharacter@@QEAA@XZ)
+MyProjectCharacter.cpp.obj : error LNK2001: sÝmbolos externos indefinidos "__declspec(dllimport) public: static class FName FXRMotionControllerBase::RightHandSourceId" (__imp_?RightHandSourceId@FXRMotionControllerBase@@2VFName@@A)
+MyProjectCharacter.gen.cpp.obj : error LNK2019: sÝmbolo externo indefinido "__declspec(dllimport) class UClass * __cdecl Z_Construct_UClass_UMotionControllerComponent_NoRegister(void)" (__imp_?Z_Construct_UClass_UMotionControllerComponent_NoRegister@@YAPEAVUClass@@XZ) referenciado na funþÒo "class UClass * __cdecl Z_Construct_UClass_AMyProjectCharacter(void)" (?Z_Construct_UClass_AMyProjectCharacter@@YAPEAVUClass@@XZ)
+D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Binaries\Win64\UE4Editor-MyProject-6266.dll : fatal error LNK1120: 4 externo nÒo resolvidos
+     Criando biblioteca D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject-6266.lib e objeto D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject-6266.exp
+UnrealBuildTool : error : UBT ERROR: Failed to produce item: D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Binaries\Win64\UE4Editor-MyProject-6266.dll
+  Total build time: 8,12 seconds (Local executor: 0,00 seconds)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: O comando ""D:\Epic Games\UE_4.19\Engine\Build\BatchFiles\Build.bat" MyProjectEditor Win64 Development "D:\Vinicius Oliveira\Git\Replay_Test\MyProject\MyProject.uproject" -WaitMutex -FromMsBuild" foi encerrado com o código 5. Verifique se você tem direitos suficientes para executar este comando.

@@ -69,7 +69,6 @@
 "D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
 "D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CoreUObject.lib"
 "D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-InputCore.lib"
-"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-HeadMountedDisplay.lib"
 "D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Json.lib"
 /OUT:"D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Binaries\Win64\UE4Editor-MyProject.dll"
 /IMPLIB:"D:\Vinicius Oliveira\Git\Replay_Test\MyProject\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MyProject.suppressed.lib"
