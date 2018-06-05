@@ -1,10 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+#include "MyGameInstance.h"
 #include "MyProject.h"
 #include "Runtime/NetworkReplayStreaming/NullNetworkReplayStreaming/Public/NullNetworkReplayStreaming.h"
 #include "NetworkVersion.h"
-#include "MyProject.h"
-#include "MyGameInstance.h"
+
 
 void UMyGameInstance::Init()
 {

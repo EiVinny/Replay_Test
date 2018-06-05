@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ReplayTest.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Intermediate\Build\Win64\UE4Editor\Development\ReplayTest\ReplayTest.cpp.obj"
+"D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Intermediate\Build\Win64\UE4Editor\Development\ReplayTest\ReplayTestCharacter.cpp.obj"
+"D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Intermediate\Build\Win64\UE4Editor\Development\ReplayTest\ReplayTestGameMode.cpp.obj"
+"D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Intermediate\Build\Win64\UE4Editor\Development\ReplayTest\ReplayTestHUD.cpp.obj"
+"D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Intermediate\Build\Win64\UE4Editor\Development\ReplayTest\ReplayTestProjectile.cpp.obj"
+"D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Intermediate\Build\Win64\UE4Editor\Development\ReplayTest\ReplayTest.init.gen.cpp.obj"
+"D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Intermediate\Build\Win64\UE4Editor\Development\ReplayTest\ReplayTestCharacter.gen.cpp.obj"
+"D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Intermediate\Build\Win64\UE4Editor\Development\ReplayTest\ReplayTestGameMode.gen.cpp.obj"
+"D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Intermediate\Build\Win64\UE4Editor\Development\ReplayTest\ReplayTestHUD.gen.cpp.obj"
+"D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Intermediate\Build\Win64\UE4Editor\Development\ReplayTest\ReplayTestProjectile.gen.cpp.obj"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ReplayTest\PCLaunch.rc.res"
+"D:\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ReplayTest.lib"

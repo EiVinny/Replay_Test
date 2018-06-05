@@ -1,0 +1,3 @@
+D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Source\ReplayTest\ReplayTest.Build.cs
+D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Source\ReplayTest.Target.cs
+D:\Vinicius Oliveira\Git\Replay_Test\ReplayTest\Source\ReplayTestEditor.Target.cs

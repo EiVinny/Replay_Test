@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
 #include "NetworkReplayStreaming.h"
-#include "UnrealClient.h"
 #include "MyGameInstance.generated.h"
 
 USTRUCT(BlueprintType)
